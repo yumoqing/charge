@@ -1,0 +1,21 @@
+{
+    "widgettype":"Menu",
+    "options":{
+        "target":"PopupWindow",
+        "popup_options":{
+            "archor":"cc",
+            "width":"70%",
+            "height":"70%"
+        },
+        "cwidth":10,
+        "items":[
+{% if get_user() %}
+			{
+				"name":"charge_type",
+				"label":"收费类型",
+				"url":"{{entire_url('/charge/scharge_type')}}"
+			}
+{% endif %}
+		]
+	}
+}

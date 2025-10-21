@@ -1,0 +1,22 @@
+{
+    "tblname": "payee_charge_rule",
+	"title":"机构收费标准",
+    "params": {
+		"sortby":"name",
+        "browserfields": {
+            "exclouded": ["id"],
+            "alters": {
+			}
+        },
+        "editexclouded": [
+            "id"
+        ],
+		"subtables":[
+			{
+				"field":"ctid",
+				"title":"收费规格",
+				"subtable":"charge_type_spec"
+			}
+		]
+    }
+}

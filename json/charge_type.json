@@ -1,0 +1,22 @@
+{
+    "tblname": "charge_type",
+	"title":"收费类型",
+    "params": {
+		"sortby":"name",
+        "browserfields": {
+            "exclouded": ["id"],
+            "alters": {
+			}
+        },
+        "editexclouded": [
+            "id"
+        ],
+		"subtables":[
+			{
+				"field":"ctid",
+				"title":"收费规格",
+				"subtable":"charge_type_spec"
+			}
+		]
+    }
+}
