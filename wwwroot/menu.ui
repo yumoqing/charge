@@ -13,7 +13,7 @@
 			{
 				"name":"charge_type",
 				"label":"收费类型",
-				"url":"{{entire_url('/charge/scharge_type')}}"
+				"url":"{{entire_url('/charge/charge_type')}}"
 			}
 {% endif %}
 		]
