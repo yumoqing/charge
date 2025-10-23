@@ -7,7 +7,7 @@ class PayeeCharge:
 		self.resourceid = resourceid
 		self.ctid = ctid
 		
-	async get_ct_specs(self, sor):
+	async def get_ct_specs(self, sor):
 		sql = """select a.charge_type_spec_mode as spec_type, b.* 
 from charge_type a, charge_type_spec b
 where a.id = ${ctid} 
