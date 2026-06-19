@@ -1,0 +1,6 @@
+Cancel: Cancel
+Conform: Conform
+Discard: Discard
+Reset: Reset
+Submit: Submit
+收费类型: 收费类型

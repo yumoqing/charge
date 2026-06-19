@@ -1,0 +1,6 @@
+Cancel: キャンセル
+Conform: 確認
+Discard: 破棄
+Reset: リセット
+Submit: 送信
+收费类型: 課金タイプ

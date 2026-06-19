@@ -1,0 +1,6 @@
+Cancel: 취소
+Conform: 확인
+Discard: 폐기
+Reset: 초기화
+Submit: 제출
+收费类型: 과금 유형
