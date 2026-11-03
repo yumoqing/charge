@@ -1,0 +1,4 @@
+init/
+logs/
+*.log
+.DS_Store
